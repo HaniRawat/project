@@ -1,11 +1,21 @@
+import Home from './pages/Home.jsx'
+import Login from './pages/Login.jsx'
+import Shop from './pages/Shop.jsx'
+import Signup from './pages/Signup.jsx'
+import TryOn from './pages/TryOn.jsx'
+
 
 function App() {
  
 
   return (
-    <div className='bg-pink-500 text-center'>
-      <h1>project phase</h1>
-    </div>
+    <>
+      <Home />
+      <Login />
+      <Shop />
+      <Signup />
+      <TryOn />
+    </>
   )
 }
 
