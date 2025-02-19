@@ -1,21 +1,17 @@
-import Home from './pages/Home.jsx'
-import Login from './pages/Login.jsx'
-import Shop from './pages/Shop.jsx'
-import Signup from './pages/Signup.jsx'
-import TryOn from './pages/TryOn.jsx'
+import Navbar from './components/Navbar'
+import AiSuggestion  from './components/AiSuggestion'
+import OutfitRecommendation  from './components/OutfitRecommendation'
 
 
 function App() {
  
 
   return (
-    <>
-      <Home />
-      <Login />
-      <Shop />
-      <Signup />
-      <TryOn />
-    </>
+    <div className="bg-[#3A2F42] flex flex-row gap-3 h-screen">  
+      <Navbar />
+      <AiSuggestion />
+      <OutfitRecommendation />
+    </div>
   )
 }
 
