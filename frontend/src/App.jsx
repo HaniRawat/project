@@ -7,7 +7,7 @@ function App() {
  
 
   return (
-    <div className="bg-[#3A2F42] flex flex-row gap-3 h-screen">  
+    <div className="bg-[#3A2F42] flex flex-row gap-3 h-screen w-screen">  
       <Navbar />
       <AiSuggestion />
       <OutfitRecommendation />
